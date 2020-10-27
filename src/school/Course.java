@@ -32,6 +32,14 @@ public class Course {
     public void setTeacher(Teacher teacher){
         this.teacher = teacher;
     }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "courseName='" + courseName + '\'' +
+                '}';
+    }
+
     /*that two was check class is full or null*/
     public boolean isSelectedStudent(Students stu){
         boolean flag = false;

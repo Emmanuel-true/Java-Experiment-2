@@ -1,8 +1,6 @@
 package school;
-import javax.rmi.ssl.SslRMIClientSocketFactory;
-import java.awt.*;
-import java.io.*;
-
+import javax.swing.*;
+import java.util.Scanner;
 
 public class Test {
     public static void main(String args[]){
@@ -15,26 +13,27 @@ public class Test {
         Course cour0 = new Course(549,"高等数学",tea0);
         Course cour1 = new Course(21,"离散数学",tea1);
         Course cour2 = new Course(102,"近代历史",tea2);
-
         stu0.addCourse(cour0);
         stu0.addCourse(cour1);
         stu1.addCourse(cour2);
         stu0.addCourse(cour0);
         stu2.addCourse(cour0);
         stu2.addCourse(cour1);
-
+        System.out.println("\n");
+        System.out.println("学生未移除课程"+ "\n");
         cour0.displayStudent();
         cour1.displayStudent();
         cour2.displayStudent();
-
+        System.out.println("\n");
+        System.out.println("学生移除课程后"+ "\n");
         stu0.removeCourse(cour0);
         stu1.removeCourse(cour0);
         stu2.removeCourse(cour2);
-
         stu0.displayCourse();
         stu1.displayCourse();
         stu2.displayCourse();
-
+        System.out.println("\n");
+        System.out.println("调用toString()"+ "\n");
         System.out.println(stu0);
         System.out.println(stu1);
         System.out.println(stu2);

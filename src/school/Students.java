@@ -119,7 +119,6 @@ public class Students extends member{
                 System.out.print(c.getName()+" ");
             }
         }
-        System.out.println("---------------"+ "\n");
     }
     public boolean isSelectedCourse(Course course){
         boolean flag=false;
@@ -150,7 +149,6 @@ public class Students extends member{
                 ", stuGender='" + getGender() + '\'' +
                 ", stuAge=" + getAge() +
                 ", major='" + major + '\'' +
-                ", courses=" + Arrays.toString(courses) +
                 ", school=" + school +
                 "\n" +
                 '}';
