@@ -135,8 +135,9 @@
 ---
 
 ## 4.流程图
-![]()
-[]()
+![流程图](https://github.com/Emmanuel-true/Java-Experiment-2/blob/main/2020-10-27%20011232.jpg)
+[图片加载不出请把这个文件下载下来，在浏览器里打开](https://github.com/Emmanuel-true/Java-Experiment-2/blob/main/2.html)
+###### 不好意思这只是一部分流程图，如果全做出来的化这个图塞不下
 
 ## 5.运行结果
 ```
